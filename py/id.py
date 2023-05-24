@@ -33,11 +33,6 @@ def main():
     proc1.start()
     proc2.start()
 
-    sleep(0.1)
-
-    proc1.terminate()
-    proc2.terminate()
-
 
 if __name__ == "__main__":
     main()
